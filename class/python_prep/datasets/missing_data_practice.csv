@@ -1,0 +1,8 @@
+﻿name,age,score,grade,salary_str
+Alice,24.0,85.0,A,50000
+Bob,,90.0,A+,65k
+Charlie,22.0,,B,58000
+David,30.0,78.0,,72000
+Eva,28.0,92.0,A+,None
+Frank,,88.0,B+,60k
+Grace,35.0,,C,80000
