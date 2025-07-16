@@ -1,0 +1,15 @@
+jupyter
+notebook
+ipykernel
+pycaret
+scikit-learn
+pandas
+plotly
+lightgbm
+catboost
+xgboost
+tqdm
+requests
+numpy
+matplotlib
+seaborn

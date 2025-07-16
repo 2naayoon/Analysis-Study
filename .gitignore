@@ -177,3 +177,14 @@ pyrightconfig.json
 
 # csv
 creditcard.csv
+
+# project data
+project/kpop_shortening_analysis/data
+project/kpop_shortening_analysis/spotify_chart_duration
+project/kpop_shortening_analysis/spotify_global_chart_2023-2025
+project/kpop_shortening_analysis/youtube_kr_chart_2023-2025
+project/kpop_shortening_analysis/youtube_shorts 2023-2025
+
+# 100mb over
+class/datasets/dl/cifar10/cifar-10-python.tar.gz
+class/0610/DeepLearning_TimeSeires_Forecating.ipynb

@@ -1,0 +1,19 @@
+services:
+  jupyter-automl:
+    build: .
+    container_name: jupyter-automl
+    ports:
+      - "8892:8888"
+    volumes:
+      - ../../datasets:/workspace/datasets
+      - ../../lib:/workspace/lib
+      - ../../models:/workspace/models
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
+    networks:
+      - automl-network
+
+networks:
+  automl-network:
+    driver: bridge
